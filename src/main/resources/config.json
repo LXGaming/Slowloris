@@ -1,0 +1,9 @@
+{
+  "host": "localhost",
+  "port": 80,
+  "timeout": 5000,
+  "connections": 200,
+  "sleep": 15000,
+  "payload": "GET %random% HTTP/1.1\r\nUser-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36\r\nAccept-language: en-NZ,en,q=0.5\r\n",
+  "keepalive": "X-a: %random%\r\n"
+}
