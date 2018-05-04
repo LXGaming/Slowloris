@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compile("com.google.code.gson:gson:2.8.2")
+    compile("com.google.code.gson:gson:2.8.4")
 }
 
 jar {
